@@ -10,9 +10,7 @@ const title = 'Settle Valley'
 const Page =()=>{
   return(
     <div>
-      <section className="">
-        <About/>
-      </section>
+      <About/>
     </div>
   );
 }

@@ -8,7 +8,6 @@ import Initial from '../pages/Initial'
 import '../css/custom.css'
 
 const Layout = (Page, title) =>{
-    console.log(Page)
   return()=>(
     <div> 
       <Head>

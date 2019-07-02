@@ -12,8 +12,27 @@ const Initial = ()=>{
                 <div className="col-8">
                     <p>I'm</p>
                     <h1>Efrain Lay Castillo</h1>
-                    <p class="lead">Software Engineer</p>
+                    <p className="lead">Software Engineer</p>
                     <p><small>Panama City, Panama</small></p>
+                    <div className="row">
+                        <div className="col-12 d-flex justify-content-start align-items-center">
+                            <Link href="https://github.com/EfrainLayCastillo">
+                                <a className="nav-link">
+                                    <i className="fab fa-github-alt"></i>
+                                </a>
+                            </Link>
+                            <Link href="https://www.instagram.com/efrainlay/">
+                                <a className="nav-link">
+                                    <i className="fab fa-instagram"></i>
+                                </a> 
+                            </Link>
+                            <Link href="mailto:efrainlaycastillo@hotmail.com">
+                                <a className="nav-link">
+                                    <i className="fab fa-google-plus-g"></i>
+                                </a> 
+                            </Link>
+                        </div>
+                    </div>   
                 </div>
             </div>
         </div>

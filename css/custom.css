@@ -16,3 +16,9 @@
     z-index: 0;
     background-color: rgba(0, 0, 0, 0.73);
   }
+  .grey{
+    background-color: #343840;
+  }
+  .grey-light{
+    background-color: #5B6270;
+  }
