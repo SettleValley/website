@@ -10,7 +10,7 @@ const title = 'Settle Valley'
 const Page =()=>{
   return(
     <div>
-      <section className="bg-dark main-background opacity">
+      <section className="">
         <About/>
       </section>
     </div>
