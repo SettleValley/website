@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Initial = ()=>{
     return(
-        <div className="container py-5">
-            <div className="row text-white">
+        <div className="container">
+            <div className="row text-white align-items-center min-500px h-100">
                 <div className="col-4">
                     <div className="text-center">
                         <img src="https://via.placeholder.com/200" className="rounded-circle" alt="..."/>

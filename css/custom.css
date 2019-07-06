@@ -22,3 +22,6 @@
   .grey-light{
     background-color: #5B6270;
   }
+  .min-500px{
+    min-height: 500px;
+  }
