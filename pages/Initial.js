@@ -15,7 +15,7 @@ const Initial = ()=>{
                     <p className="lead">Software Engineer</p>
                     <p><small>Panama City, Panama</small></p>
                     <div className="row">
-                        <div className="col-12 d-flex justify-content-start align-items-center">
+                        <div className="col-12 d-flex justify-content-start align-items-center icon-color">
                             <Link href="https://github.com/EfrainLayCastillo">
                                 <a className="nav-link">
                                     <i className="fab fa-github-alt"></i>

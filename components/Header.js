@@ -16,17 +16,17 @@ const Header = (props)=>{
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                     <Link href="#">
-                        <a class="nav-link text-white">Works</a>
+                        <a className="nav-link text-white">Works</a>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link href="#">
-                        <a class="nav-link text-white">About</a>
+                        <a className="nav-link text-white">About</a>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link href="#">
-                        <a class="nav-link text-white">Contact</a>
+                        <a className="nav-link text-white">Contact</a>
                     </Link>
                 </li>
             </ul>
