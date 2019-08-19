@@ -18,7 +18,7 @@ export default ()=>{
             </p>
         </div>
         <div className="col-md-6">
-          <img src="https://forzo.beshley.com/wp-content/uploads/2019/07/about_img.jpg" className="img-thumbnail rounded mx-auto d-block" alt="..."/>
+          <img src="https://forzo.beshley.com/wp-content/uploads/2019/07/about_img.jpg" className="img-thumbnail rounded mx-auto d-block img-hall" alt="..."/>
         </div>
        </div>
       </div>
