@@ -30,7 +30,7 @@
 .img-hall{
   max-height: 500px;
   padding: 50px;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 20px 5px;
+  box-shadow: 0 28px 50px rgba(77,91,120,.15);
 }
 .subtitle{
   display: block;
