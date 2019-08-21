@@ -57,3 +57,8 @@ h1,h2,h3,h4,p, span{
 #projects{
   background: #f9f9f9;
 }
+
+/* Listing projects with filter */
+.cust-li{
+  font-weight: ;
+}
