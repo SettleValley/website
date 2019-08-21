@@ -7,7 +7,7 @@ export default ()=>{
        <div className="row">
         <div className="col-md-6">
           <span className="subtitle text-uppercase">About Myself</span>
-          <h2 className="font-weight-bold text-uppercase title-2">Creating and Building Creative Idea</h2>
+          <h2 className="font-weight-bold text-uppercase title-2">Creating and Building Creative Idea.</h2>
             <p>
               This project started with me wanting to study a new framework called Next and React.
               The goal of this project is to improve on the idea of bringing in more users,
