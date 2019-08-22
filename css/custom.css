@@ -59,6 +59,25 @@ h1,h2,h3,h4,p, span{
 }
 
 /* Listing projects with filter */
-.cust-li{
-  font-weight: ;
+.cust-li li{
+  font-weight: 500;
+  color: #989898;
+}
+.cust-li .active{
+  color: #343840;
+  background: white;
+}
+
+/* Footer Section css */
+.block-center{
+  margin: 0 auto;
+}
+.btn-customform{
+  border: 1px solid black;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 12px;
 }
