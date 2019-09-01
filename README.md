@@ -1,10 +1,7 @@
 # website
 
-### About myself
+## About myself
 
-Creating and building creative idea
+*Creating and building creative idea*
 
-I'm Software Engineer  student from Panama. Always thinking of
-new ideas that can improve and optimize some procees in the industry. I like
-to learn new software skills and try to share with others, ofcourse I play so
-much VideoGame, prefer a PC Master Race. I considered myself pragmatic.
+I'm currently a Software Engineer, work with BlueTide Web Consulting at Ciudad del Saber. Trying to think new ideas that can improve and optimize some procees in the industry, its funny because not every ideas are good but some are. In my free time I spend my time on youtube watching Platzi News or Netflix series. I would like to take some trips to explore new cultures, I'm interested in Asian Culture. I can't leave behind Videogames, since childhood I really like to play on my PC videogames. Yep, and I still have to discover more things.
