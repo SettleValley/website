@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 // import Jumbotron from './partial/Jumbotron';
 // import Card from './partial/Card';
 // import Feature from './partial/Feature';
-import About from './About';
-import Projects from './Projects';
+import About from './_partials/About';
+import Projects from './_partials/Projects';
 //Style
 const title = 'Settle Valley'
 const Page =()=>{
