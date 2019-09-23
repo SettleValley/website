@@ -1,25 +1,34 @@
+import Link from 'next/link'
 
 const Footer = ()=>{
     return(
     <div className="section" id="Footer">
         <div className="container">
-            <div class="row">
+            <div className="row">
                 <div className="col-md-12">
                     <h2 className="font-weight-bold text-capitalize title-2 text-center">Contact Me.</h2>
                 </div>
-                <div class="col-12 d-flex justify-content-center align-items-center icon-color-footer   ">
-                    <a class="nav-link" href="https://github.com/EfrainLayCastillo">
-                        <i class="fab fa-github-alt"></i>
-                    </a>
-                    <a class="nav-link" href="https://www.instagram.com/efrainlay/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="nav-link" href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="nav-link" href="mailto:efrainlaycastillo@hotmail.com">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+                <div className="col-12 d-flex justify-content-center align-items-center icon-color-footer   ">
+                    <Link href="https://github.com/EfrainLayCastillo">
+                        <a className="nav-link" >
+                            <i className="fab fa-github-alt"></i>
+                        </a>
+                    </Link>
+                    <Link href="https://www.instagram.com/efrainlay/">
+                        <a className="nav-link">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                    </Link>
+                    <Link href="https://twitter.com/LayEfrain">
+                        <a className="nav-link" >
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                    </Link>
+                    <Link href="mailto:efrainlaycastillo@gmail.com">
+                        <a className="nav-link" >
+                            <i className="fas fa-envelope"></i>
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>

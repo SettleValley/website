@@ -5,11 +5,11 @@ const Initial = ()=>{
         <div className="container">
             <div className="row text-white align-items-center min-500px h-100">
                 <div className="col-4">
-                    <div className="text-center">
-                        <img src="https://via.placeholder.com/200" className="rounded-circle" alt="..."/>
+                    <div className="text-center ">
+                        <img src="/static/img/efrain.jpg" className="rounded-circle w-100" alt="..."/>
                     </div>
                 </div>
-                <div className="col-8 cstm-details">
+                <div className="col-8 cstm-details pl-4">
                     <p>I'm</p>
                     <h1>Efrain Lay Castillo</h1>
                     <p className="lead size-half">Software Engineer</p>

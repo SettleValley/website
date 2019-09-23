@@ -7,9 +7,9 @@ export default ()=>{
                <div className="nav navbar-nav mr-auto pb-3">
                     <ul className="nav list-inline cust-li">
                         <li className="list-inline-item active">All</li>
-                        <li className="list-inline-item">Websites</li>
+                        <li className="list-inline-item">Events</li>
                         <li className="list-inline-item">Photography</li>
-                        <li className="list-inline-item">Post</li>
+                        <li className="list-inline-item">Websites</li>
                     </ul>
                </div>
            </div>

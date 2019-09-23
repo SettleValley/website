@@ -14,7 +14,10 @@ export default ()=>{
         <div className="col-md-8">
           <h4 className="font-weight-bold text-uppercase title-4">Work hard. Dream big.</h4>
             <p className="lead">
-                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+              sharing updates projects or events in my day life.
+            </p>
+            <p>
+              Living new experiences in my life journey, meeting interesting people, while sharing very interesting ideas and experiences.
             </p>
         </div>
         <div className="col-md-4">
