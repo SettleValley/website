@@ -17,9 +17,12 @@ I believe I still have many things to discover.
 Living new experiences in my life journey, meeting interesting people, while sharing very interesting ideas and experiences. 
 You can find anything on this section, trying to know more about me.
 
-    - Website
-    - Hobbit
+    - Website (Portfolio)
+    - Startup Weekend Panama
     - Python Panama (Event)
+    - Tekie Talks (Customer Experience)
     - Hackaton (Copa Airline)
     - Hackaton (Banco Delta)
     - Hackaton (Banco General)
+    - Settle Valley
+    - Hobbit
