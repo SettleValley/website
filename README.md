@@ -1,4 +1,4 @@
-# website
+# website (Next.js)
 
 ### About myself
 
@@ -12,6 +12,17 @@ I believe I still have many things to discover.
 
 ### Latest Works
 
-*sharing updates projects or events in my day life.*
+*Sharing updates projects or events in my day life.*
 
-Living new experiences in my life journey, meeting interesting people, while sharing very interesting ideas and experiences.
+Living new experiences in my life journey, meeting interesting people, while sharing very interesting ideas and experiences. 
+You can find anything on this section, trying to know more about me.
+
+    * Website (Portfolio)
+    * Startup Weekend Panama
+    * Python Panama (Event)
+    * Tekie Talks (Customer Experience)
+    * Hackaton (Copa Airline)
+    * Hackaton (Banco Delta)
+    * Hackaton (Banco General)
+    * Settle Valley
+    * Hobbit
