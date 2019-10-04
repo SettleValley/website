@@ -24,6 +24,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "express": "^4.17.1",
+    "isotope-layout": "^3.0.6",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
