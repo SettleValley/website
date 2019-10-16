@@ -1,32 +1,23 @@
-import Link from 'next/link'
+import React, { Component } from 'react'
+import Link from 'next/link';
+import fetch from 'isomorphic-unfetch';
 
-export default ()=>{
-  return(
-       <div className="row">
-           <div className="col-md-12">
-               <div className="nav navbar-nav mr-auto pb-3">
-                    <ul className="nav list-inline cust-li">
-                        <li className="list-inline-item active">All</li>
-                        <li className="list-inline-item">Events</li>
-                        <li className="list-inline-item">Photography</li>
-                        <li className="list-inline-item">Websites</li>
-                    </ul>
-               </div>
-           </div>
-        <div className="col-md-8">
-            <img src="/static/temp2.jpg" className="mx-auto d-block img-fluid" alt="..."/>
-        </div>
-        <div className="col-md-4">
-          <img src="/static/temp3.jpg" className="mx-auto d-block img-fluid" alt="..."/>
-        </div>
-        
-        <div className="col-md-4 pt-3">
-          <img src="/static/temp4.jpg" className="mx-auto d-block img-fluid" alt="..."/>
-        </div>
-        <div className="col-md-8 pt-3">
-            <img src="/static/temp2.jpg" className="mx-auto d-block img-fluid" alt="..."/>
-        </div>
-        
-       </div>
-  );
+function Listing (props) {
+  console.warn('props', props);
+  return (
+    <div>
+      <p>Preact has {props.stars} ⭐</p>
+      <Link href='/'>
+        <a>I bet Next.js has more stars (?)</a>
+      </Link>
+    </div>
+  )
 }
+
+Listing.getInitialProps = async () => {
+  const res = await fetch('https://api.github.com/repos/developit/preact')
+  const json = await res.json() // better use it inside try .. catch
+  return { stars: json.stargazers_count }
+}
+
+export default Listing;
