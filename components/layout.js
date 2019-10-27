@@ -3,7 +3,6 @@ import Head from './Head'
 //Components
 import Header from './Header'
 import Footer from './Footer'
-import Initial from '../pages/Initial'
 // import Footer from './Footer'
 
 // Style

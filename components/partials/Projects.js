@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import Listing from './Listingprojects';
 
-export default ()=>{
+const Projects =(props)=>{
+  
   return(
     <section id="projects" className="section">
       <div className="container">
@@ -10,7 +10,7 @@ export default ()=>{
                 <h2 className="font-weight-bold text-capitalize title-2 text-center">Latest Works.</h2>
             </div>
         </div>
-       <div className="row">
+      <div className="row">
         <div className="col-md-8">
           <h4 className="font-weight-bold text-uppercase title-4">Work hard. Dream big.</h4>
             <p className="lead">
@@ -23,9 +23,9 @@ export default ()=>{
         <div className="col-md-4">
           <img src="/static/temp1.jpg" className="mx-auto d-block img-fluid" alt="..."/>
         </div>
-       </div>
-       <Listing/>
+      </div>
       </div>
     </section>
   );
 }
+export default Projects

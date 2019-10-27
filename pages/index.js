@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 //Partials components
 // import Jumbotron from './partial/Jumbotron';
@@ -6,6 +7,8 @@ import Layout from '../components/layout'
 // import Feature from './partial/Feature';
 import Banner from '../components/partials/Banner'
 import Info from '../components/partials/Info'
+import Projects from '../components/partials/Projects'
+
 //Style
 import fetch from 'isomorphic-unfetch';
 
@@ -14,27 +17,33 @@ const Index = props =>{
     <Layout>
       <Banner/>
       <Info/>
-        {/* <p>I am a new page</p>
+      <Projects AllListing={props.Listings}/>
+
+        <p>I am a new page</p>
         <ul>
-          {props.shows.map(show => (
-            <li key={show.id}>
-              <Link href="/p/[id]" as={`/p/${show.id}`}>
-                <a>{show.name}</a>
+          {props.Listings.map((listing,key) => (
+            <li key={key}>
+              <Link href="/p/[key]" as={`/p/${key}`}>
+                <a>{listing}</a>
               </Link>
             </li>
           ))}
-        </ul> */}
+        </ul>
     </Layout>
   );
 }
 Index.getInitialProps = async function() {
-  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
-  const data = await res.json();
+  const count = '2'
+  const token = '8459250697.fdc3253.5d4f69040af84b259e49dcf8c74abeef'
+  const res = await fetch(`https://api.instagram.com/v1/users/self/media/recent/?access_token=${token}&count=${count}`);
+  const result = await res.json();
 
-  console.log(`Show data fetched. Count: ${data.length}`);
+  // console.log(result.data);
 
   return {
-    shows: data.map(entry => entry.show)
+    Listings: result.data.map(entry => {
+      console.log(entry.images.standard_resolution)
+    })
   };
 };
 export default Index
