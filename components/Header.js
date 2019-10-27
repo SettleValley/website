@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-const Header = (props)=>{
+const Header = ()=>{
     return(
-<div className="" id="TopHeader">
+<div className="Header" id="TopHeader">
 
     <nav className="navbar navbar-expand-lg navbar-dark container">
         <Link href="#">

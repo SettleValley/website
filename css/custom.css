@@ -62,6 +62,14 @@ body{
   color: #3e3e3e;
   font-size: 1.2em;
 }
+
+/* MENU */
+.Header{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
 /* Section grid setting */
 .section{
   padding: 140px 0;

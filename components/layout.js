@@ -14,6 +14,7 @@ const Layout = props =>(
     <Head/>
     <Header/>
     {props.children}
+    <Footer/>
   </>
 )
 
