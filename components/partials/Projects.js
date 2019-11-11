@@ -1,7 +1,29 @@
 import Link from 'next/link'
 
 const Projects =(props)=>{
-  
+
+  const Images = props.AllListing.map((data)=>
+      <div className="col-3 mb-3">
+        <Link href={data.link}>
+          <a className="tag_img" target="_blank">
+            <div className="hover_like">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <img src={data.images.standard_resolution.url} className="mx-auto d-block img-fluid"/>
+          </a>
+        </Link>
+      </div>
+  )
+
+  const Tags = props.AllListing.map(data=>
+      <>
+        
+          {data.tags.map(tag =>
+             <span class="badge badge-light">{tag}</span>
+            )}
+      </>
+    )
+
   return(
     <section id="projects" className="section">
       <div className="container">
@@ -24,7 +46,16 @@ const Projects =(props)=>{
           <img src="/static/temp1.jpg" className="mx-auto d-block img-fluid" alt="..."/>
         </div>
       </div>
+      <div className="row">
+      <div className="col-md-12">
+               <div className="eclipse-text">
+                    {Tags}
+               </div>
+           </div>
+        {Images}
       </div>
+      </div>
+      
     </section>
   );
 }
