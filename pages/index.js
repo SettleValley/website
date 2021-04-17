@@ -13,22 +13,14 @@ import Projects from '../components/partials/Projects'
 import fetch from 'isomorphic-unfetch';
 
 const Index = props =>{
+
+
+
   return(
     <Layout>
       <Banner/>
       <Info/>
       <Projects AllListing={props.Listings}/>
-
-        <p>I am a new page</p>
-        <ul>
-          {props.Listings.map((listing,key) => (
-            <li key={key}>
-              <Link href="/p/[key]" as={`/p/${key}`}>
-                <a>{listing}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
     </Layout>
   );
 }
@@ -42,7 +34,7 @@ Index.getInitialProps = async function() {
 
   return {
     Listings: result.data.map(entry => {
-      console.log(entry.images.standard_resolution)
+      return entry.images
     })
   };
 };

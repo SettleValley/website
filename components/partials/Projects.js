@@ -24,6 +24,17 @@ const Projects =(props)=>{
           <img src="/static/temp1.jpg" className="mx-auto d-block img-fluid" alt="..."/>
         </div>
       </div>
+      <div className="row">
+          {props.AllListing.map((listing,key) => {
+            return(
+            <li key={key}>
+              <Link href="/p/[key]" as={`/p/${key}`}>
+                <a>{listing}</a>
+              </Link>
+            </li>
+            )
+          })}
+      </div>
       </div>
     </section>
   );
