@@ -25,7 +25,7 @@ const Index = props =>{
   );
 }
 Index.getInitialProps = async function() {
-  const count = '2'
+  const count = '8'
   const token = '8459250697.fdc3253.5d4f69040af84b259e49dcf8c74abeef'
   const res = await fetch(`https://api.instagram.com/v1/users/self/media/recent/?access_token=${token}&count=${count}`);
   const result = await res.json();
@@ -34,7 +34,7 @@ Index.getInitialProps = async function() {
 
   return {
     Listings: result.data.map(entry => {
-      return entry.images
+      return entry;
     })
   };
 };
