@@ -23,7 +23,7 @@
   "homepage": "https://github.com/SettleValley/website#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "isomorphic-unfetch": "^3.0.0",
     "isotope-layout": "^3.0.6",
     "next": "^8.1.0",
